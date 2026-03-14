@@ -1,83 +1,75 @@
 body{
-font-family: Arial;
-margin:0;
-background:#0f0f0f;
-color:white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #0f0f0f;
+  color: white;
 }
 
 header{
-text-align:center;
-padding:60px 20px;
+  text-align: center;
+  padding: 60px 20px;
 }
 
 h1{
-font-size:42px;
-margin-bottom:10px;
+  font-size: 42px;
+  margin-bottom: 10px;
 }
 
 .projects{
-max-width:1100px;
-margin:auto;
-padding:40px;
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px;
 }
 
 .projects h2{
-margin-bottom:30px;
+  margin-bottom: 30px;
 }
 
 .card{
-background:#1b1b1b;
-padding:20px;
-border-radius:10px;
-margin-bottom:25px;
-transition:0.2s;
-}
-
-.card:hover{
-transform:scale(1.02);
-}
-
-.card img{
-width:100%;
-border-radius:8px;
-margin-bottom:10px;
+  background: #1b1b1b;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
 }
 
 .card a{
-display:inline-block;
-margin-top:10px;
-color:#4da3ff;
-text-decoration:none;
-}
-
-.skills{
-max-width:900px;
-margin:auto;
-padding:40px;
-}
-
-.tags span{
-background:#222;
-padding:8px 12px;
-border-radius:20px;
-margin:5px;
-display:inline-block;
-}
-
-footer{
-text-align:center;
-padding:30px;
-color:#aaa;
+  display: inline-block;
+  margin-top: 10px;
+  color: #4da3ff;
+  text-decoration: none;
 }
 
 .gallery{
-display:flex;
-gap:15px;
-margin-top:15px;
-flex-wrap:wrap;
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  flex-wrap: wrap;
 }
 
 .gallery img{
-width:260px;
-border-radius:8px;
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+.skills{
+  max-width: 900px;
+  margin: auto;
+  padding: 40px;
+}
+
+.tags span{
+  background: #222;
+  padding: 8px 12px;
+  border-radius: 20px;
+  margin: 5px;
+  display: inline-block;
+}
+
+footer{
+  text-align: center;
+  padding: 30px;
+  color: #aaa;
 }
